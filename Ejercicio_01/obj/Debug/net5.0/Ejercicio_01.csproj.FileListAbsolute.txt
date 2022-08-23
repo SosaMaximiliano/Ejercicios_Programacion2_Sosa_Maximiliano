@@ -1,0 +1,16 @@
+G:\Programacion II\Solucion\Ejercicio_01\bin\Debug\net5.0\Ejercicio_01.exe
+G:\Programacion II\Solucion\Ejercicio_01\bin\Debug\net5.0\Ejercicio_01.deps.json
+G:\Programacion II\Solucion\Ejercicio_01\bin\Debug\net5.0\Ejercicio_01.runtimeconfig.json
+G:\Programacion II\Solucion\Ejercicio_01\bin\Debug\net5.0\Ejercicio_01.runtimeconfig.dev.json
+G:\Programacion II\Solucion\Ejercicio_01\bin\Debug\net5.0\Ejercicio_01.dll
+G:\Programacion II\Solucion\Ejercicio_01\bin\Debug\net5.0\ref\Ejercicio_01.dll
+G:\Programacion II\Solucion\Ejercicio_01\bin\Debug\net5.0\Ejercicio_01.pdb
+G:\Programacion II\Solucion\Ejercicio_01\obj\Debug\net5.0\Ejercicio_01.csproj.AssemblyReference.cache
+G:\Programacion II\Solucion\Ejercicio_01\obj\Debug\net5.0\Ejercicio_01.GeneratedMSBuildEditorConfig.editorconfig
+G:\Programacion II\Solucion\Ejercicio_01\obj\Debug\net5.0\Ejercicio_01.AssemblyInfoInputs.cache
+G:\Programacion II\Solucion\Ejercicio_01\obj\Debug\net5.0\Ejercicio_01.AssemblyInfo.cs
+G:\Programacion II\Solucion\Ejercicio_01\obj\Debug\net5.0\Ejercicio_01.csproj.CoreCompileInputs.cache
+G:\Programacion II\Solucion\Ejercicio_01\obj\Debug\net5.0\Ejercicio_01.dll
+G:\Programacion II\Solucion\Ejercicio_01\obj\Debug\net5.0\ref\Ejercicio_01.dll
+G:\Programacion II\Solucion\Ejercicio_01\obj\Debug\net5.0\Ejercicio_01.pdb
+G:\Programacion II\Solucion\Ejercicio_01\obj\Debug\net5.0\Ejercicio_01.genruntimeconfig.cache
