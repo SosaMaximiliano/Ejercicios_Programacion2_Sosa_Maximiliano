@@ -8,41 +8,41 @@ namespace Ejercicio_01
         {
 
             int acumulador = 0;
-            int num;
-            int max = 0;
-            int min = 0;
+            int numero;
+            int numeroMaximo = 0;
+            int numeroMinimo = 0;
             float promedio = 0f;
-            string sNum;
+            string numeroIngresado;
 
             for (int i = 0; i < 5; i++)
             {
                 Console.WriteLine($"Numero {i+1}:");
-                sNum = Console.ReadLine();
-                int.TryParse(sNum, out num);
+                numeroIngresado = Console.ReadLine();
+                int.TryParse(numeroIngresado, out numero);
 
                 if (i==0)
                 {
-                    max = num;
-                    min = num;
+                    numeroMaximo = numero;
+                    numeroMinimo = numero;
                 }
 
-                if (num < min)
+                if (numero < numeroMinimo)
                 {
-                    min = num;
+                    numeroMinimo = numero;
                 }
 
-                if (num > max)
+                if (numero > numeroMaximo)
                 {
-                    max = num;
+                    numeroMaximo = numero;
                 }
 
-                acumulador += num;
+                acumulador += numero;
             }
 
             promedio = acumulador / 5;
 
-            Console.WriteLine($"El minimo es: {min}");
-            Console.WriteLine($"El maximo es: {max}");
+            Console.WriteLine($"El minimo es: {numeroMinimo}");
+            Console.WriteLine($"El maximo es: {numeroMaximo}");
             Console.WriteLine($"El promedio es: {promedio}");
 
         }

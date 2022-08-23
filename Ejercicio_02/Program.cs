@@ -6,21 +6,21 @@ namespace Ejercicio_02
     {
         static void Main(string[] args)
         {
-            string sNum;
-            int num;
+            string numeroIngresado;
+            int numero;
             double cuadrado;
             double cubo;
 
             Console.WriteLine("Numero:");
-            sNum = Console.ReadLine();
-            int.TryParse(sNum, out num);
-            if (num > 0)
+            numeroIngresado = Console.ReadLine();
+            int.TryParse(numeroIngresado, out numero);
+            if (numero > 0)
             {
-                cuadrado = Math.Pow(num, 2);
-                cubo = Math.Pow(num, 3);
+                cuadrado = Math.Pow(numero, 2);
+                cubo = Math.Pow(numero, 3);
 
-                Console.WriteLine($"El cuadrado de {num} es: {cuadrado}");
-                Console.WriteLine($"El cubo de {num} es: {cubo}");
+                Console.WriteLine($"El cuadrado de {numero} es: {cuadrado}");
+                Console.WriteLine($"El cubo de {numero} es: {cubo}");
             }
             else
             {
