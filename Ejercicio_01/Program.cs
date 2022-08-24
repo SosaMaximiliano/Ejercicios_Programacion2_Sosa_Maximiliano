@@ -17,7 +17,7 @@ namespace Ejercicio_01
             for (int i = 0; i < 5; i++)
             {
                 Console.WriteLine($"Numero {i+1}:");
-                numeroIngresado = Console.ReadLine();
+                numeroIngresado  = Console.ReadLine();
                 int.TryParse(numeroIngresado, out numero);
 
                 if (i==0)

@@ -6,16 +6,16 @@ namespace Ejercicio_03
     {
         static void Main(string[] args)
         {
-            int num;
-            string sNum;
+            int numero;
+            string numeroIngrersado;
             int contador = 0;
 
             Console.Write("Numero: ");
 
-            sNum = Console.ReadLine();
-            int.TryParse(sNum, out num);
+            numeroIngrersado = Console.ReadLine();
+            int.TryParse(numeroIngrersado, out numero);
 
-            for (int i = 1; i < num; i++)
+            for (int i = 1; i < numero; i++)
             {
                 for (int j = 1; j < i; j++)
                 {
