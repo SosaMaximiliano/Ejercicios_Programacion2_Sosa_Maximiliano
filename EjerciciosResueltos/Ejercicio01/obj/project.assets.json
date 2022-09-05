@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "BibliotecaDeClases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/BibliotecaDeClases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BibliotecaDeClases.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "BibliotecaDeClases/1.0.0": {
+      "type": "project",
+      "path": "../ClassLibrary1/BibliotecaDeClases.csproj",
+      "msbuildProject": "../ClassLibrary1/BibliotecaDeClases.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "BibliotecaDeClases >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\maxis\\.nuget\\packages\\": {}
@@ -13,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Programacion II\\EjerciciosResueltos\\EjerciciosResueltos\\Ejercicio01.csproj",
-      "projectName": "Ejercicio01",
-      "projectPath": "G:\\Programacion II\\EjerciciosResueltos\\EjerciciosResueltos\\Ejercicio01.csproj",
+      "projectUniqueName": "G:\\Programacion II\\EjerciciosResueltos\\Ejercicio01\\Ejercicio01-2.csproj",
+      "projectName": "Ejercicio01-2",
+      "projectPath": "G:\\Programacion II\\EjerciciosResueltos\\Ejercicio01\\Ejercicio01-2.csproj",
       "packagesPath": "C:\\Users\\maxis\\.nuget\\packages\\",
-      "outputPath": "G:\\Programacion II\\EjerciciosResueltos\\EjerciciosResueltos\\obj\\",
+      "outputPath": "G:\\Programacion II\\EjerciciosResueltos\\Ejercicio01\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\maxis\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -33,7 +52,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "G:\\Programacion II\\EjerciciosResueltos\\ClassLibrary1\\BibliotecaDeClases.csproj": {
+              "projectPath": "G:\\Programacion II\\EjerciciosResueltos\\ClassLibrary1\\BibliotecaDeClases.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
